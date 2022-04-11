@@ -1,0 +1,521 @@
+.MuiToolbar-regular {
+    padding: 0px 40px;
+}
+button.MuiButtonBase-root.App-menuButton-4{
+    margin-left: 0px;
+    /* padding-left: 0px; */
+}
+
+.App-grow-13 {
+    text-align: center;
+}
+.App-grow-13 img {
+    width: 60px;
+}
+.logo-text{
+    color: #1c1c1c;
+    font-weight: 700;
+    margin-left: 12px;
+    font-size: 18px;
+}
+.menu-section-left ul.MuiList-root.MuiList-padding div a span:hover{
+    color: #145388;
+}
+.menu-section-left .active:after{ 
+content: " ";
+    background: #145388;
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    width: 6px;
+    height: 90px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.MuiBox-root-15 {
+    max-height: 85vh;
+    overflow: auto;
+    height: 100%;
+}
+
+/* ===========BUTTON CODE START=============== */
+.save-btn {
+    background: #26B99A !important;
+    color: white !important;
+}
+
+.close-btn {
+    background: #337ab7 !important;
+    color: white !important;
+}
+
+.save-btn1 {
+    background: #337ab7 !important;
+    color: white !important;
+}
+.save-btn1:hover{
+    background: #ffffff !important;
+    color: #337ab7 !important;
+    border:2px solid #337ab7 !important;
+}
+
+
+.close-btn1 {
+    background: #ffffff !important;
+    color: #337ab7 !important;
+    border:2px solid #337ab7 !important;
+    /* padding: 0px !important; */
+}
+
+.close-btn1:hover{
+    background: #337ab7 !important;
+    color: #ffffff !important;
+    /* border:0px solid #337ab7 !important; */
+}
+.mobile-hide{
+    display: block !important;
+}
+.header-top-profile{
+    display: flex !important;
+}
+.login-box{
+    width: 28%;
+    margin: 0px auto !important;
+    padding: 30px 22px;
+}
+.login-bg {
+    background-image: url(../src/assets/login-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login-head{
+    color: white;
+}
+
+.login-bg label {
+    color: rgb(255, 255, 255) !important;
+}
+.login-bg input {
+  /* border: 1px solid white; */
+   border-radius: 5px;
+}
+/* .login-bg .MuiSelect-selectMenu{
+    background: white;
+} */
+.login-bg .MuiInputBase-root {
+    color: rgba(255, 255, 255, 0.87);
+}
+.login-logo{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.login-bg .MuiSelect-iconOutlined {
+    right: 7px;
+    color: white;
+}
+.MuiSelect-outlined.MuiSelect-outlined {
+    /* border: 1px solid white !important; */
+    padding-right: 32px;
+}
+
+.tab-content {
+    padding: 15px;
+}
+
+.ant-table-wrapper.responsive-table {
+    min-width: 200px;
+    overflow: auto;
+}
+.MuiDialog-paperWidthSm {
+    max-width: 820px;
+}
+/* ===========BUTTON CODE END=============== */
+
+
+
+
+/* ===================BILL PRINT CODE START======================= */
+
+
+
+
+
+
+/* ===============RESPONSIVE CSS CODE START================ */
+
+@media (max-width: 1399.98px) {
+}
+
+
+
+@media (max-width: 1199.98px) { }
+
+
+
+@media (max-width: 991.98px) { 
+    .App-root-1 {
+        display: inherit !important;
+    }
+    .App-content-12 {
+        margin: 140px 30px 40px 150px !important;
+        padding: 15px !important;
+    }
+    .ant-tabs-extra-content h3 {
+        display: none !important;
+    }
+
+ }
+
+ @media (max-width: 767px) {
+    .MuiTypography-h6 {
+        font-size: 0.9rem !important;
+    }
+    .header-top-profile{
+        display: initial !important;
+    }
+
+    .responsive-logo{
+        width: 35% !important;
+    }
+    .mobile-hide{
+        display: none !important;
+    }
+    .App-root-1 {
+        display: initial !important;
+    }
+    .ant-table-content {
+        overflow: auto !important;
+    }
+
+    .App-content-12 {
+        margin: 100px 15px 15px 15px !important;
+        padding: 8px !important;
+    }
+    .ant-tabs-extra-content h3 {
+        display: none !important;
+    }
+}
+
+@media (max-width: 766px){
+    .responsive-logo {
+        width: 9% !important;
+    }
+    }
+
+
+@media (max-width: 750px){
+    .responsive-logo {
+        width: 11% !important;
+    }
+    }
+
+@media (max-width: 700px){
+.responsive-logo {
+    width: 11% !important;
+}
+}
+
+@media (max-width: 600px) { 
+
+.responsive-logo {
+    width: 10% !important;
+}
+}
+
+ @media (max-width: 575.98px) { 
+    .MuiToolbar-regular {
+        padding: 0px 20px !important;
+    }
+    .responsive-logo {
+        width: 13% !important;
+    }
+
+}
+
+@media (max-width: 425px) { 
+    .MuiToolbar-regular {
+        padding: 0px 20px !important;
+    }
+    .responsive-logo {
+        width: 35% !important;
+    }
+
+}
+
+@media (max-width: 375px) { 
+
+    .MuiToolbar-regular {
+        padding: 0px 12px !important;
+    }
+    
+    .App-menuButton-4 {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .responsive-logo {
+        width: 35% !important;
+    }
+}
+
+
+
+@media (max-width: 320px) { 
+
+    .MuiToolbar-regular {
+        padding: 0px 0px !important;
+    }
+    
+    .App-menuButton-4 {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .responsive-logo {
+        width: 35% !important;
+    }
+
+}
+
+
+
+
+/* ===============RESPONSIVE CSS CODE END================ */
+
+
+/* ===============PRINT PAGE CSS================ */
+
+.main_div{
+        position: relative;
+        overflow: hidden;
+        margin: 15px 0px 12px 35px;
+        padding: 0px;
+        border: none;
+        width: 758px;
+}
+.head_print {
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.head_print h5 {
+	font-size: 17px;
+	font-weight: 600;
+	margin: 0;
+	padding: 7px 0;
+}
+._bx_print{
+    border:1px solid gray;
+}
+.grid1 {
+	padding: 90px 0px;
+}
+.left_detail {
+	list-style: none;
+	margin: 0;
+	width: 35%;
+	padding: 0px;
+	display: inline-block;
+	padding: 20px 0px 0px 6px;
+}
+.left_detail1 {
+	list-style: none;
+	margin: 0;
+	width: 65%;
+    padding: 0px;
+	display: inline-block;
+    
+}
+.leftborder {
+	border-left: 1px solid #000;
+}
+.fullborder {
+    text-align: Center;
+    border-top: 1px  solid #000;
+}
+.name_bx {
+	padding: 40px;
+}
+.table_head table tr th {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 3px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-right: none;
+}
+.tax_bx th{
+    border: none !important;
+}
+.data_bx td {
+    padding: 3px;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 79px;
+    border-left: none;
+}
+
+.tax_data tr td {
+	width: 50px;
+	border: none;
+}
+.tax_data {
+	padding: 0px !important;
+    border-left: 1px solid #ccc;
+}
+.tax_bxer{
+    padding: 0px !important;
+}
+.tax_data tr td:nth-child(2) {
+	border-left: 1px solid #ccc;
+}
+.tax_bxer tr:nth-child(2) th {
+	border: none;
+	border-top: 1px solid #ccc !important;
+	font-size: 12px;
+}
+.tax_bxer tr:nth-child(2) th:nth-child(2) {
+	border-left: 1px solid #ccc;
+}
+.dat_bx {
+	border-left: 1px solid #ccc;
+}
+.pament_bx {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-left: 10px;
+}
+.rupees_bx {
+    border-top:1px solid #ccc;
+}
+.terms_bx {
+	border-right: 1px solid #ccc;
+}
+.ruppes_bx{
+    border-bottom: 1px solid #ccc;
+}
+.summ_wrapper ul {
+	list-style: none;
+	margin: 0;
+	padding: 6px 0 0 15px;
+}
+.summ_wrapper ul li {
+	border-bottom: 1px dashed #ccc;
+}
+.terms_wrap p {
+	margin: 0;
+	padding-left: 10px;
+	font-weight: 600;
+}
+.terms_wrap span {
+	padding-left: 10px;
+}
+.pament_bx p:nth-child(2) {
+	margin-bottom: 0px;
+}
+ .leftborderer{
+     border-left:1px solid #000;
+    }
+@media print{
+    .grid1{
+        width: 25%;
+    }
+    .leftborder{
+        width: 75%;
+    }
+    .name_bx{
+        width: 60% !important;
+    }
+    .leftborderer{
+        width: 40% !important;
+    }
+.grid1 {
+    padding: 60px 0px;
+}
+    .grid_bxer{
+        width: 100%;
+        display: flex;
+    }
+    .grid_bx_1{
+        width: 5%;
+    }
+    .grid_bx_2{
+        width: 7%;
+    }
+    .grid_bx_4{
+        width: 20%;
+    }
+    .grid_bx_7{
+        width: 75% !important;
+    }
+    .print_1{
+        width: 25%;
+    }
+    .terms_bxxer{
+        width:70% !important;
+    }
+    .rates_bx{
+        padding-left: 20px;
+        width:30% !important;
+    }
+    .printfx{
+        display:flex !important;
+    }
+    .table{
+        width: 100% !important;
+    }
+    .table_head{
+        width:100% !important;
+    }
+    .print_bxer{
+        width:37.5%;
+    }
+    .prod_bx{
+        width:400px !important;
+    }
+    .name_bx {
+        width:100%;
+}
+}
+.spaner {
+	font-size: 14px;
+}
+
+/* ===============END================ */
+.MuiGrid-grid-sm-4 {
+	flex-grow: 0;
+	max-width: 16.333% !important;
+	flex-basis: 33.333333%;
+}
+.modal_width {
+    width: 48%;
+    margin-bottom: 5px !important;
+}
+.modal_widtht{
+    width: 32%;
+    display: block;
+}
+.yert{
+    display: inline-block;
+}
+.modal_wit{
+    display: inline;
+    margin-left: 10px !important;
+}
+.select-btn {
+    width: 153% !important;
+}
+.MuiBox-root-19 {
+    text-align: center !important;
+}
+.MuiGrid-root.center-g {
+    text-align: center;
+    width: 70%;
+    display: inline-block !important;
+}
+.table_data .ant-table-header {
+    font-size: 12px !important;
+}
